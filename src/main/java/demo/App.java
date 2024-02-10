@@ -7,16 +7,42 @@ import java.net.MalformedURLException;
 
 public class App {
     public void getGreeting() throws InterruptedException, MalformedURLException {
-        TestCases tests = new TestCases(); // Initialize your test class
-
-        //TODO: call your test case functions one after other here
-
-        tests.testCase01();
-
-        //END Tests
+//        TestCases tests = new TestCases(); // Initialize your test class
+//        tests.testCase01();
+//        //END Tests
+//        tests.endTest(); // End your test by clearning connections and closing browser
 
 
-        tests.endTest(); // End your test by clearning connections and closing browser
+//        Amazon amazon = new Amazon();
+//        amazon.checkAmazon();
+//        amazon.endTest();
+
+
+//        Automate_count_hyperlinks automate_count_hyperlinks = new Automate_count_hyperlinks();
+//        automate_count_hyperlinks.printHyperlink();
+//        automate_count_hyperlinks.endTest();
+
+
+//        Automate_post_on_linkedin automate_post_on_linkedin = new Automate_post_on_linkedin();
+//        automate_post_on_linkedin.PostOnLinkedIN();
+//        automate_post_on_linkedin.endTest();
+
+
+//        Automate_image_urls automate_image_urls = new Automate_image_urls();
+//        automate_image_urls.printUrl();
+//        automate_image_urls.endTest();
+
+//        Automate_nested_frames_text automate_nested_frames_text = new Automate_nested_frames_text();
+//        automate_nested_frames_text.printFrameText();
+//        automate_nested_frames_text.endTest();
+
+//        Automate_imdb_ratings automate_imdb_ratings = new Automate_imdb_ratings();
+//        automate_imdb_ratings.imdb_ratings();
+//        automate_imdb_ratings.endTest();
+
+        Automate_window_handle automate_window_handle = new Automate_window_handle();
+        automate_window_handle.window_handling();
+        automate_window_handle.endTest();
     }
 
     public static void main(String[] args) throws InterruptedException, MalformedURLException {
